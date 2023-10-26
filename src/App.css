@@ -10,10 +10,10 @@
   font-size: larger;
 }
 
-/* Projects List style */
+/* Tech List style */
 
 .box {
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 	height: 100%;
 	transform-style: preserve-3d;
@@ -28,9 +28,9 @@
 	}
 }
 .box span {
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	left: 0;
+	left: 0; */
 	width: 50%;
 	height: 50%;
 	transform-origin: center;
@@ -39,11 +39,68 @@
 	-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
 }
 .box span img {
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	left: 0;
+	left: 0; */
 	width: 50%;
 	height: 50%;
 	object-fit: cover;
 }
 
+/* Projects List style */
+
+
+.swiper-image-one {
+	background-image: url(./assets/projects_img/newrizon_1.jpg);
+  }
+  
+  .swiper-image-two {
+	background-image: url(./assets/projects_img/newrizon_2.jpg);
+  }
+  
+  .swiper-image-three {
+	background-image: url(./assets/projects_img/mercurioweather_1.jpg);
+  }
+  
+  .swiper-image-four {
+	background-image: url(./assets/projects_img/mercurioweather_2.jpg);
+  }
+  
+  .swiper-image-five {
+	background-image: url(./assets/projects_img/greenlife_1.jpg);
+  }
+  
+  .swiper-image-six {
+	background-image: url(./assets/projects_img/greenlife_2.jpg);
+  }
+
+  .swiper-image-seven{
+	background-image: url(./assets/projects_img/brainchallenge_1.jpg);
+  }
+
+  .swiper-image-eight{
+	background-image: url(./assets/projects_img/brainchallenge_2.jpg);
+  }
+
+  .swiper-image-nine{
+	background-image: url(./assets/projects_img/mememory_1.png);
+  }
+
+  .swiper-image-ten{
+	background-image: url(./assets/projects_img/mememory_2.png);
+  }
+
+  
+  p {
+	margin: 0;
+	font-family: 'Cormorant Garamond', serif;
+	color: #fff;
+	width: 100%;
+	max-width: 350px;
+	text-align: justify;
+	font-size: 1.2rem;
+	font-weight: 500;
+	opacity: 0;
+	transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1) 1.4s;
+	transform: translate3d(-20%, 0, 0);
+  }

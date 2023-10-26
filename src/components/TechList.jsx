@@ -14,7 +14,8 @@ const TechList = () => {
         <Container className=' mt-5 d-flex justify-content-center'>
             <Row className='mt-5' style={{textAlign: "center", margin: "2 rem auto"}}>
                 <Col>
-                <h1> KNOWN TECHNOLOGIES</h1>
+                <h1> TECH SKILLS</h1>
+                <br></br>
                 <img src={selfie} alt="selfie" style={{ maxWidth:"100%", maxHeight:"100%", opacity: "0.35", borderRadius: "50%"}}/>
                 <div class="box">
 		<span id="img1" style={{"--i":1}}><img src={HTML5_logo}/></span>
