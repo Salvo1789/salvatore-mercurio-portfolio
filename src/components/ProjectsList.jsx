@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import "swiper/css";
 import { Card, Container } from "react-bootstrap";
+import { useSelector } from "react-redux";
 
 import newrizon_1 from "../assets/projects_img/newrizon_1.jpg";
 import mercurioweather_1 from "../assets/projects_img/mercurioweather_1.jpg";
@@ -10,9 +11,12 @@ import brainchallenge_1 from "../assets/projects_img/brainchallenge_1.jpg";
 import mememory_2 from "../assets/projects_img/mememory_2.png";
 
 const ProjectsList = () => {
+
+  const mode = useSelector((state) => state.mainReducer.isdarkMode);
+
   return (
-    <Container>
-      <h1 className="text-center">MY PROJECTS</h1>
+    <Container style={{ background: mode ? "white" : "black" }}>
+      <h1 className="text-center" style={{ color: mode ? "black" : "white" }}>MY PROJECTS</h1>
       <br></br>
       <Swiper
         effect={"coverflow"}

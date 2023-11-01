@@ -1,26 +1,22 @@
-import { THEME_SET } from '../action';
-import { LANGUAGE_SET } from '../action';
+import { DARK_MODE } from "../action";
 
+// initial state
 const initialState = {
-    theme: false,
-    language: "it"
+  // checking mode from localstorage if falsey (e.g. 0, null, undefined, etc.) it will be false, otherwise true
+  isdarkMode: false,
 };
 
-const mainReducer = (state = initialState, action) => {
-    switch (action.type) {
-      case THEME_SET:
-        return {
-          ...state,
-          theme: action.payload,
-        };
-      case LANGUAGE_SET:
-        return {
-          ...state,
-          language: action.payload,
-        };
-      default:
-        return state;
-    }
-  };
-  
-  export default mainReducer;
+const darkModeReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case DARK_MODE:
+      return {
+        ...state,
+        // getting value from the action file and changing isdarkMode State.
+        isdarkMode: action.payload,
+      };
+    default:
+      return state;
+  }
+};
+
+export default darkModeReducer;

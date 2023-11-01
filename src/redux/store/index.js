@@ -1,12 +1,16 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
-import mainReducer from '../reducer'
+import darkModeReducer from "../reducer";
+
+// export default combineReducers({
+//   darkMode: darkModeReducer,
+// });
 
 const rootReducer = combineReducers({
-    mainReducer: mainReducer,
+  mainReducer: darkModeReducer,
 });
 
 const store = configureStore({
-  reducer: rootReducer,
+reducer: rootReducer,
 })
 
 export default store
