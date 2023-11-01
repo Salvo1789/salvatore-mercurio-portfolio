@@ -36,14 +36,14 @@ const PortfolioNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
-            <Nav.Link href="#home" style={{ color: mode ? "black" : "white"}}>
-              About me
-            </Nav.Link>
             <Nav.Link href="#link" style={{ color: mode ? "black" : "white"}}>
               Tech Skills
             </Nav.Link>
             <Nav.Link href="#link" style={{ color: mode ? "black" : "white"}}>
               My Projects
+            </Nav.Link>
+            <Nav.Link href="#home" style={{ color: mode ? "black" : "white"}}>
+              Contacts
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
