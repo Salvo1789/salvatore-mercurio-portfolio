@@ -35,6 +35,7 @@ const ProjectsList = () => {
         className="mySwiper"
       >
         <SwiperSlide>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7102280914713403392/" target="_blank">
           <Card className="text-white border border-0">
             <Card.Img src={newrizon_1} />
             <Card.ImgOverlay>
@@ -48,9 +49,11 @@ const ProjectsList = () => {
                 </Card.Text>
             </Card.ImgOverlay>
           </Card>
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7094723086230417408/" target="_blank">
           <Card className="text-success">
             <Card.Img src={mercurioweather_1} />
             <Card.ImgOverlay>
@@ -63,9 +66,11 @@ const ProjectsList = () => {
                 </Card.Text>
             </Card.ImgOverlay>
           </Card>
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7110618274131812352/" target="_blank">
           <Card className="text-dark">
             <Card.Img src={greenlife_2} />
             <Card.ImgOverlay>
@@ -79,9 +84,11 @@ const ProjectsList = () => {
                 </Card.Text>
             </Card.ImgOverlay>
           </Card>
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7104799499646119936/" target="_blank">
           <Card className="text-info">
             <Card.Img src={brainchallenge_1} />
             <Card.ImgOverlay>
@@ -94,9 +101,11 @@ const ProjectsList = () => {
                 </Card.Text>
             </Card.ImgOverlay>
           </Card>
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7115263283036614656/" target="_blank">
           <Card className="text-danger">
             <Card.Img src={mememory_2} />
             <Card.ImgOverlay>
@@ -109,6 +118,7 @@ const ProjectsList = () => {
                 </Card.Text>
             </Card.ImgOverlay>
           </Card>
+          </a>
         </SwiperSlide>
       </Swiper>
     </Container>

@@ -1,9 +1,13 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { BsMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail} from 'react-icons/ai'
+import { FaFileDownload} from 'react-icons/fa'
 
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { handledarkMode } from "../redux/action";
+
+import CV_Salvatore_Mercurio from '../assets/CV_Salvatore_Mercurio.pdf'
 
 const PortfolioNavbar = () => {
 
@@ -29,7 +33,7 @@ const PortfolioNavbar = () => {
 
   return (
     <Navbar expand="lg" style={{ border: mode ? "3px solid black" : "3px solid white" }}>
-      <Container style={{ paddingInline: 0 }}>
+      <Container style={{ paddingInline: 5 }}>
         <Navbar.Brand href="#home" style={{ color: mode ? "black" : "white" }}>
           SALVATORE MERCURIO
         </Navbar.Brand>
@@ -37,13 +41,16 @@ const PortfolioNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link href="#link" style={{ color: mode ? "black" : "white"}}>
-              My Projects
+            <a href="https://github.com/Salvo1789" target="_blank" class="nav-link px-2 text-light"><AiFillGithub style={{ width: "3rem", height: "3rem", color: mode ? "black" : "white"}}/></a>
             </Nav.Link>
             <Nav.Link href="#link" style={{ color: mode ? "black" : "white"}}>
-              Tech Skills
+            <a href="https://www.linkedin.com/in/salvatore-mercurio-full-stack-web-developer/" target="_blank" class="nav-link px-2"><AiFillLinkedin style={{ width: "3rem", height: "3rem", color: mode ? "black" : "white"}}/></a>
             </Nav.Link>
             <Nav.Link href="#home" style={{ color: mode ? "black" : "white"}}>
-              Contacts
+            <a href="mailto:salvo.mercurio89@gmail.com" class="nav-link px-2 "><AiOutlineMail style={{ width: "3rem", height: "3rem", color: mode ? "black" : "white"}}/></a>
+            </Nav.Link>
+            <Nav.Link href="#home" style={{ color: mode ? "black" : "white"}}>
+            <a href={CV_Salvatore_Mercurio} download="cv-salvatore-mercurio" class="nav-link px-2 "><FaFileDownload style={{ width: "3rem", height: "3rem", color: mode ? "black" : "white"}}/></a>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

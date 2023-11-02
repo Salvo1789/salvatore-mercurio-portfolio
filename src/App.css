@@ -1,6 +1,7 @@
 .App {
   font-family: 'Rubik Mono One', monospace;
-  animation: enter 5s forwards;
+  animation: enter 3s linear;
+  margin: 2rem;
 }
 
 @keyframes enter {
@@ -8,11 +9,17 @@
 		opacity: 0;
 		
 	}
+	25%{
+		opacity: 0.250;
+	}
 	50%{
-		opacity: 0.425;
+		opacity: 0.5;
+	}
+	75%{
+		opacity: 0.75;
 	}
 	100% {
-		opacity: 0.85;
+		opacity: 1;
 		
 	}
 }

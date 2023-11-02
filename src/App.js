@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import TechList from "./components/TechList";
 import ProjectsList from "./components/ProjectsList";
-import Contacts from "./components/Contacts";
+
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
       <Presentation />
       <ProjectsList />
       <TechList />
-      <Contacts />
     </div>
   );
 }

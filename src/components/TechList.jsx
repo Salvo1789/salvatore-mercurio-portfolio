@@ -21,7 +21,7 @@ const TechList = () => {
                 <Col>
                 <h1 style={{ color: mode ? "black" : "white" }}> TECH SKILLS</h1>
                 <br></br>
-                <img src={selfie} alt="selfie" style={{ maxWidth:"100%", maxHeight:"100%", opacity: "0.35", borderRadius: "50%"}}/>
+                <img src={selfie} alt="selfie" style={{ maxWidth:"100%", maxHeight:"100%", opacity: "0.35", borderRadius: "50%", filter: "grayscale(100%)"}}/>
                 <div className="box">
 		<span id="img1" style={{"--i":1}}><img src={HTML5_logo}/></span>
 		<span style={{"--i":2}}><img src={CSS_logo}/></span>
