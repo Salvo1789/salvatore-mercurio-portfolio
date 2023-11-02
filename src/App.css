@@ -1,6 +1,20 @@
 .App {
   font-family: 'Rubik Mono One', monospace;
-  padding: 2rem;
+  animation: enter 5s forwards;
+}
+
+@keyframes enter {
+	0% {
+		opacity: 0;
+		
+	}
+	50%{
+		opacity: 0.425;
+	}
+	100% {
+		opacity: 0.85;
+		
+	}
 }
 
 /* navbar style */
@@ -56,7 +70,7 @@
 /* Tech List style */
 
 .box {
-	/* position: relative; */
+	position: relative;
 	width: 100%;
 	height: 100%;
 	transform-style: preserve-3d;
@@ -71,9 +85,9 @@
 	}
 }
 .box span {
-	/* position: absolute;
+	position: absolute;
 	top: 0;
-	left: 0; */
+	left: 0;
 	width: 50%;
 	height: 50%;
 	transform-origin: center;
@@ -82,9 +96,9 @@
 	-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
 }
 .box span img {
-	/* position: absolute;
+	position: absolute;
 	top: 0;
-	left: 0; */
+	left: 0;
 	width: 50%;
 	height: 50%;
 	object-fit: cover;
@@ -133,7 +147,31 @@
 	background-image: url(./assets/projects_img/mememory_2.png);
   }
 
-  
+  .card-img-overlay{
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .card-img-overlay:hover{
+	background-color: grey;
+	animation: fade-in 1s forwards;
+  }
+
+  @keyframes fade-in {
+	0% { opacity: 0; }
+	100% { opacity: 0.85; }
+  }
+
+  /* Contacts section */
+  .footer{
+	min-height: 3rem;
+	margin-top: 25rem;
+	width: 100%;
+  }
+
   p {
 	margin: 0 auto;
 	/* font-family: 'Cormorant Garamond', serif; */
@@ -143,6 +181,5 @@
 	text-align: center;
 	font-size: 1.2rem;
 	font-weight: 500;
-	
 	
   }

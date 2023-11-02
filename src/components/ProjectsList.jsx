@@ -37,8 +37,15 @@ const ProjectsList = () => {
         <SwiperSlide>
           <Card className="text-white border border-0">
             <Card.Img src={newrizon_1} />
-            <Card.ImgOverlay className="bg-transparent opacity-50">
+            <Card.ImgOverlay>
               <Card.Title>Newrizon - Mobile Product Website</Card.Title>
+              <br></br>
+              <Card.Text>
+                Used Technologies: 
+                <br></br>
+                #HTML #CSS #JavaScript #React.js #Redux #bootstrap 
+                #Java #SpringBoot #SQL #PostgreSQL
+                </Card.Text>
             </Card.ImgOverlay>
           </Card>
         </SwiperSlide>
@@ -46,17 +53,30 @@ const ProjectsList = () => {
         <SwiperSlide>
           <Card className="text-success">
             <Card.Img src={mercurioweather_1} />
-            <Card.ImgOverlay className="bg-transparent opacity-50">
+            <Card.ImgOverlay>
               <Card.Title>Mercurioweather - Weather web app</Card.Title>
+              <br></br>
+              <Card.Text>
+                Used Technologies: 
+                <br></br>
+                #HTML #CSS #JavaScript #React.js #Redux #bootstrap 
+                </Card.Text>
             </Card.ImgOverlay>
           </Card>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="text-secondary">
+          <Card className="text-dark">
             <Card.Img src={greenlife_2} />
-            <Card.ImgOverlay className="bg-transparent opacity-50">
+            <Card.ImgOverlay>
               <Card.Title>Greenlife - CRM</Card.Title>
+              <br></br>
+              <Card.Text>
+                Used Technologies: 
+                <br></br>
+                #HTML #CSS #JavaScript #React.js #Redux #bootstrap 
+                #Java #SpringBoot #SQL #PostgreSQL
+                </Card.Text>
             </Card.ImgOverlay>
           </Card>
         </SwiperSlide>
@@ -64,8 +84,14 @@ const ProjectsList = () => {
         <SwiperSlide>
           <Card className="text-info">
             <Card.Img src={brainchallenge_1} />
-            <Card.ImgOverlay className="bg-transparent opacity-50">
+            <Card.ImgOverlay>
               <Card.Title>BrainChallenge - Quiz Web App</Card.Title>
+              <br></br>
+              <Card.Text>
+                Used Technologies: 
+                <br></br>
+                #HTML #CSS #JavaScript #React.js #bootstrap 
+                </Card.Text>
             </Card.ImgOverlay>
           </Card>
         </SwiperSlide>
@@ -73,8 +99,14 @@ const ProjectsList = () => {
         <SwiperSlide>
           <Card className="text-danger">
             <Card.Img src={mememory_2} />
-            <Card.ImgOverlay className="bg-transparent opacity-50">
+            <Card.ImgOverlay>
               <Card.Title>MEMEmory - Gaming Web App</Card.Title>
+              <br></br>
+              <Card.Text>
+                Used Technologies: 
+                <br></br>
+                #HTML #CSS #JavaScript #React.js #bootstrap 
+                </Card.Text>
             </Card.ImgOverlay>
           </Card>
         </SwiperSlide>

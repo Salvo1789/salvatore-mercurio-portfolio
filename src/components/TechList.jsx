@@ -16,7 +16,7 @@ const TechList = () => {
     const mode = useSelector((state) => state.mainReducer.isdarkMode);
 
     return(
-        <Container className=' mt-5 d-flex justify-content-center'>
+        <Container className=' my-5 d-flex justify-content-center'>
             <Row className='mt-5' style={{textAlign: "center", margin: "2 rem auto"}}>
                 <Col>
                 <h1 style={{ color: mode ? "black" : "white" }}> TECH SKILLS</h1>

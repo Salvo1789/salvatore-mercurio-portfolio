@@ -37,10 +37,10 @@ const PortfolioNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link href="#link" style={{ color: mode ? "black" : "white"}}>
-              Tech Skills
+              My Projects
             </Nav.Link>
             <Nav.Link href="#link" style={{ color: mode ? "black" : "white"}}>
-              My Projects
+              Tech Skills
             </Nav.Link>
             <Nav.Link href="#home" style={{ color: mode ? "black" : "white"}}>
               Contacts
