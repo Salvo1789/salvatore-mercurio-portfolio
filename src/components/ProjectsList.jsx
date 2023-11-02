@@ -12,11 +12,26 @@ import mememory_2 from "../assets/projects_img/mememory_2.png";
 
 const ProjectsList = () => {
 
-  const mode = useSelector((state) => state.mainReducer.isdarkMode);
+  const mode = useSelector((state) => state.darkMode.isdarkMode);
+  const lang = useSelector((state) => state.language.isEnglish);
+
+  let title = "MY PROJECTS";
+  if(lang){
+    title = "MY PROJECTS";
+  }else{
+    title = "I MIEI PROGETTI";
+  }
+
+  let subtitle = "USED TECHNOLOGIES:";
+  if(lang){
+    subtitle = "USED TECHNOLOGIES:";
+  }else{
+    subtitle = "TECNOLOGIE UTILIZZATE:";
+  }
 
   return (
     <Container style={{ background: mode ? "white" : "black" }}>
-      <h1 className="text-center" style={{ color: mode ? "black" : "white" }}>MY PROJECTS</h1>
+      <h1 className="text-center" style={{ color: mode ? "black" : "white" }}>{title}</h1>
       <br></br>
       <Swiper
         effect={"coverflow"}
@@ -42,7 +57,7 @@ const ProjectsList = () => {
               <Card.Title>Newrizon - Mobile Product Website</Card.Title>
               <br></br>
               <Card.Text>
-                Used Technologies: 
+                {subtitle} 
                 <br></br>
                 #HTML #CSS #JavaScript #React.js #Redux #bootstrap 
                 #Java #SpringBoot #SQL #PostgreSQL
@@ -60,7 +75,7 @@ const ProjectsList = () => {
               <Card.Title>Mercurioweather - Weather web app</Card.Title>
               <br></br>
               <Card.Text>
-                Used Technologies: 
+              {subtitle}  
                 <br></br>
                 #HTML #CSS #JavaScript #React.js #Redux #bootstrap 
                 </Card.Text>
@@ -77,7 +92,7 @@ const ProjectsList = () => {
               <Card.Title>Greenlife - CRM</Card.Title>
               <br></br>
               <Card.Text>
-                Used Technologies: 
+              {subtitle}  
                 <br></br>
                 #HTML #CSS #JavaScript #React.js #Redux #bootstrap 
                 #Java #SpringBoot #SQL #PostgreSQL
@@ -95,7 +110,7 @@ const ProjectsList = () => {
               <Card.Title>BrainChallenge - Quiz Web App</Card.Title>
               <br></br>
               <Card.Text>
-                Used Technologies: 
+              {subtitle}  
                 <br></br>
                 #HTML #CSS #JavaScript #React.js #bootstrap 
                 </Card.Text>
@@ -112,7 +127,7 @@ const ProjectsList = () => {
               <Card.Title>MEMEmory - Gaming Web App</Card.Title>
               <br></br>
               <Card.Text>
-                Used Technologies: 
+              {subtitle}  
                 <br></br>
                 #HTML #CSS #JavaScript #React.js #bootstrap 
                 </Card.Text>
