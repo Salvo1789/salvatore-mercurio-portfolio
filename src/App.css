@@ -29,6 +29,7 @@
 #darkmode{
 	display: flex;
 	justify-content: center;
+	padding: 2rem;
   }
   
   #darkmode .dark {
@@ -40,8 +41,8 @@
   }
   
   #darkmode .label {
-	width: 38px;
-	height: 14px;
+	width: 2rem;
+	height: 1rem;
 	background-color:#111;
 	display: flex;
 	border-radius:50px;
