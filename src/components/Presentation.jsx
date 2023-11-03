@@ -9,7 +9,7 @@ const Presentation = () => {
   if (lang){
     text1 = "WELCOME TO MY PORTFOLIO!"
    }else{
-    text1 = "BENVENUTO NEL MIO PORTFOLIO";
+    text1 = "BENVENUTO NEL MIO PORTFOLIO!";
    }
 
    let text2 = "I'm a passionate and curious Full Stack Developer, my motto is:";
