@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/salvatore-mercurio-portfolio/static/css/main.9796a0a7.css",
+    "main.js": "/salvatore-mercurio-portfolio/static/js/main.bc0339cb.js",
+    "static/media/mememory_2.png": "/salvatore-mercurio-portfolio/static/media/mememory_2.3fd09c3701e9135fc74f.png",
+    "static/media/mememory_1.png": "/salvatore-mercurio-portfolio/static/media/mememory_1.64b32bea56d01e5f7274.png",
+    "static/media/mercurioweather_2.jpg": "/salvatore-mercurio-portfolio/static/media/mercurioweather_2.47887f261fecf948ce07.jpg",
+    "static/media/mercurioweather_1.jpg": "/salvatore-mercurio-portfolio/static/media/mercurioweather_1.a7ab2e8bc500d7f93e45.jpg",
+    "static/media/newrizon_2.jpg": "/salvatore-mercurio-portfolio/static/media/newrizon_2.e51ae4050f14f9217f81.jpg",
+    "static/media/newrizon_1.jpg": "/salvatore-mercurio-portfolio/static/media/newrizon_1.e009ced271b8147a2a39.jpg",
+    "static/media/brainchallenge_2.jpg": "/salvatore-mercurio-portfolio/static/media/brainchallenge_2.3720bb1e04394339a527.jpg",
+    "static/media/brainchallenge_1.jpg": "/salvatore-mercurio-portfolio/static/media/brainchallenge_1.a5054c572889ef361f4e.jpg",
+    "static/media/greenlife_2.jpg": "/salvatore-mercurio-portfolio/static/media/greenlife_2.df726613838215d004d0.jpg",
+    "static/media/CV_Salvatore_Mercurio.pdf": "/salvatore-mercurio-portfolio/static/media/CV_Salvatore_Mercurio.d97a68907f263588709c.pdf",
+    "static/media/selfie.png": "/salvatore-mercurio-portfolio/static/media/selfie.25ab9dce1ada2278c875.png",
+    "static/media/greenlife_1.jpg": "/salvatore-mercurio-portfolio/static/media/greenlife_1.712b98e36b4865228534.jpg",
+    "static/media/italy_flag.png": "/salvatore-mercurio-portfolio/static/media/italy_flag.9f2c8075aed1e79cef03.png",
+    "static/media/react_logo.png": "/salvatore-mercurio-portfolio/static/media/react_logo.c321bc2f79067207da3d.png",
+    "static/media/postgresql_logo.png": "/salvatore-mercurio-portfolio/static/media/postgresql_logo.00e174824b89f4f975f0.png",
+    "static/media/java_logo.png": "/salvatore-mercurio-portfolio/static/media/java_logo.25f3056a833096a87baf.png",
+    "static/media/CSS_logo.png": "/salvatore-mercurio-portfolio/static/media/CSS_logo.2a9d02c653f3c5b3da68.png",
+    "static/media/spring_boot_logo.png": "/salvatore-mercurio-portfolio/static/media/spring_boot_logo.e2d5b8984830e39728ed.png",
+    "static/media/HTML5_logo.png": "/salvatore-mercurio-portfolio/static/media/HTML5_logo.35905d3e72caf1600582.png",
+    "static/media/bootstrap_logo.png": "/salvatore-mercurio-portfolio/static/media/bootstrap_logo.b0a4c154531128460ecb.png",
+    "static/media/JS_logo.png": "/salvatore-mercurio-portfolio/static/media/JS_logo.52a97759ec71de5c5f59.png",
+    "index.html": "/salvatore-mercurio-portfolio/index.html",
+    "main.9796a0a7.css.map": "/salvatore-mercurio-portfolio/static/css/main.9796a0a7.css.map",
+    "main.bc0339cb.js.map": "/salvatore-mercurio-portfolio/static/js/main.bc0339cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9796a0a7.css",
+    "static/js/main.bc0339cb.js"
+  ]
+}
