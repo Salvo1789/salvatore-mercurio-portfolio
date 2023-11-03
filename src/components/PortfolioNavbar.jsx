@@ -43,9 +43,49 @@ const PortfolioNavbar = () => {
   }, [mode]);
 
   return (
+    <>
+    <Container style={{display: "flex"}}>
+    <div
+          id="darkmode"
+      >
+        <input
+          type="checkbox"
+          className="checkbox"
+          id="checkbox1"
+          // onChange prop to fire our internal function for changing the dark mode value
+          onChange={switchDarkMode}
+          // checking checked prop with dark mode state
+          checked={mode}
+        />
+        <label htmlFor="checkbox1" className="label" style={{ border: mode ? "1px solid black" : "1px solid white" }}>
+          <BsMoonStarsFill color="white" />
+          <BsFillSunFill color="yellow" />
+          <div className="ball"></div>
+        </label>
+      </div>
+
+      <div
+          id="darkmode"
+      >
+        <input
+          type="checkbox"
+          className="checkbox"
+          id="checkbox2"
+          // onChange prop to fire our internal function for changing the dark mode value
+          onChange={switchLanguage}
+          // checking checked prop with dark mode state
+          checked={lang}
+        />
+        <label htmlFor="checkbox2" className="label" style={{ border: mode ? "1px solid black" : "1px solid white" }}>
+          <img className="flag" src={italy_flag} />
+          <img className="flag" src={uk_flag} />
+          <div className="ball"></div>
+        </label>
+      </div>
+      </Container>
     <Navbar expand="lg" style={{ border: mode ? "3px solid black" : "3px solid white" }}>
       <Container style={{ paddingInline: 5 }}>
-        <Navbar.Brand href="#home" style={{ color: mode ? "black" : "white" }}>
+        <Navbar.Brand href="#home" style={{ color: mode ? "black" : "white", margin: "auto" }}>
           SALVATORE MERCURIO
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -65,46 +105,9 @@ const PortfolioNavbar = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-
-        <div
-          id="darkmode"
-      >
-        <input
-          type="checkbox"
-          className="checkbox"
-          id="checkbox1"
-          // onChange prop to fire our internal function for changing the dark mode value
-          onChange={switchDarkMode}
-          // checking checked prop with dark mode state
-          checked={mode}
-        />
-        <label htmlFor="checkbox1" className="label">
-          <BsMoonStarsFill color="white" />
-          <BsFillSunFill color="yellow" />
-          <div className="ball"></div>
-        </label>
-      </div>
-
-      <div
-          id="darkmode"
-      >
-        <input
-          type="checkbox"
-          className="checkbox"
-          id="checkbox2"
-          // onChange prop to fire our internal function for changing the dark mode value
-          onChange={switchLanguage}
-          // checking checked prop with dark mode state
-          checked={lang}
-        />
-        <label htmlFor="checkbox2" className="label">
-          <img className="flag" src={italy_flag} />
-          <img className="flag" src={uk_flag} />
-          <div className="ball"></div>
-        </label>
-      </div>
       </Container>
     </Navbar>
+    </>
   );
 };
 
