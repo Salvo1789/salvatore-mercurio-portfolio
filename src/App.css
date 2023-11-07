@@ -76,6 +76,8 @@
 	flex-grow: 0.5;
   }
 
+ 
+
 /* Presentation style */
 .quote {
   color: red;
@@ -175,17 +177,15 @@
 	animation: fade-in 1s forwards;
   }
 
+  .card-title, .card-text{
+	font-size: clamp(0.3rem, 1vw + 0.25rem, 1.5rem );
+  }
+
   @keyframes fade-in {
 	0% { opacity: 0; }
 	100% { opacity: 0.85; }
   }
 
-  /* Contacts section */
-  .footer{
-	min-height: 3rem;
-	margin-top: 25rem;
-	width: 100%;
-  }
 
   p {
 	margin: 0 auto;
