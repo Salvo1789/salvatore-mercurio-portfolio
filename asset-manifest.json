@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/salvatore-mercurio-portfolio/static/css/main.3c0ec001.css",
-    "main.js": "/salvatore-mercurio-portfolio/static/js/main.bc0339cb.js",
+    "main.css": "/salvatore-mercurio-portfolio/static/css/main.dca17342.css",
+    "main.js": "/salvatore-mercurio-portfolio/static/js/main.494714fe.js",
     "static/media/mememory_2.png": "/salvatore-mercurio-portfolio/static/media/mememory_2.3fd09c3701e9135fc74f.png",
     "static/media/mememory_1.png": "/salvatore-mercurio-portfolio/static/media/mememory_1.64b32bea56d01e5f7274.png",
     "static/media/mercurioweather_2.jpg": "/salvatore-mercurio-portfolio/static/media/mercurioweather_2.47887f261fecf948ce07.jpg",
@@ -24,11 +24,11 @@
     "static/media/bootstrap_logo.png": "/salvatore-mercurio-portfolio/static/media/bootstrap_logo.b0a4c154531128460ecb.png",
     "static/media/JS_logo.png": "/salvatore-mercurio-portfolio/static/media/JS_logo.52a97759ec71de5c5f59.png",
     "index.html": "/salvatore-mercurio-portfolio/index.html",
-    "main.3c0ec001.css.map": "/salvatore-mercurio-portfolio/static/css/main.3c0ec001.css.map",
-    "main.bc0339cb.js.map": "/salvatore-mercurio-portfolio/static/js/main.bc0339cb.js.map"
+    "main.dca17342.css.map": "/salvatore-mercurio-portfolio/static/css/main.dca17342.css.map",
+    "main.494714fe.js.map": "/salvatore-mercurio-portfolio/static/js/main.494714fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c0ec001.css",
-    "static/js/main.bc0339cb.js"
+    "static/css/main.dca17342.css",
+    "static/js/main.494714fe.js"
   ]
 }
