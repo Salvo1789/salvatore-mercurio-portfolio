@@ -37,7 +37,7 @@ const ProjectsList = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'auto'}
+        slidesPerView={'2'}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
