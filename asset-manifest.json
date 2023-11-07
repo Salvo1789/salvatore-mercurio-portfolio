@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/salvatore-mercurio-portfolio/static/css/main.9796a0a7.css",
+    "main.css": "/salvatore-mercurio-portfolio/static/css/main.3c0ec001.css",
     "main.js": "/salvatore-mercurio-portfolio/static/js/main.bc0339cb.js",
     "static/media/mememory_2.png": "/salvatore-mercurio-portfolio/static/media/mememory_2.3fd09c3701e9135fc74f.png",
     "static/media/mememory_1.png": "/salvatore-mercurio-portfolio/static/media/mememory_1.64b32bea56d01e5f7274.png",
@@ -24,11 +24,11 @@
     "static/media/bootstrap_logo.png": "/salvatore-mercurio-portfolio/static/media/bootstrap_logo.b0a4c154531128460ecb.png",
     "static/media/JS_logo.png": "/salvatore-mercurio-portfolio/static/media/JS_logo.52a97759ec71de5c5f59.png",
     "index.html": "/salvatore-mercurio-portfolio/index.html",
-    "main.9796a0a7.css.map": "/salvatore-mercurio-portfolio/static/css/main.9796a0a7.css.map",
+    "main.3c0ec001.css.map": "/salvatore-mercurio-portfolio/static/css/main.3c0ec001.css.map",
     "main.bc0339cb.js.map": "/salvatore-mercurio-portfolio/static/js/main.bc0339cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9796a0a7.css",
+    "static/css/main.3c0ec001.css",
     "static/js/main.bc0339cb.js"
   ]
 }
