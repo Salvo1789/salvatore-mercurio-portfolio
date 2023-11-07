@@ -2,7 +2,7 @@
   "name": "salvatore-mercurio-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Salvo1789.github.io/salvatore-mercurio-portfolio",
+  "homepage": "http://salvo1789.github.io/salvatore-mercurio-portfolio",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
