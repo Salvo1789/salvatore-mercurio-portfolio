@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import "swiper/css";
 import { Card, Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
+import React, { useRef, useState } from 'react';
 
 import newrizon_1 from "../assets/projects_img/newrizon_1.jpg";
 import mercurioweather_1 from "../assets/projects_img/mercurioweather_1.jpg";
@@ -11,6 +12,8 @@ import brainchallenge_1 from "../assets/projects_img/brainchallenge_1.jpg";
 import mememory_2 from "../assets/projects_img/mememory_2.png";
 
 const ProjectsList = () => {
+
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   const mode = useSelector((state) => state.darkMode.isdarkMode);
   const lang = useSelector((state) => state.language.isEnglish);
@@ -34,20 +37,15 @@ const ProjectsList = () => {
       <h1 className="text-center" style={{ color: mode ? "black" : "white" }}>{title}</h1>
       <br></br>
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={'2'}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        style={{
+          '--swiper-navigation-color': '#fff',
+          '--swiper-pagination-color': '#fff',
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        spaceBetween={10}
+        navigation={true}
+        thumbs={{ swiper: thumbsSwiper }}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper2"
       >
         <SwiperSlide>
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7102280914713403392/" target="_blank">
@@ -134,6 +132,55 @@ const ProjectsList = () => {
             </Card.ImgOverlay>
           </Card>
           </a>
+        </SwiperSlide>
+      </Swiper>
+      <Swiper
+        onSwiper={setThumbsSwiper}
+        spaceBetween={10}
+        slidesPerView={4}
+        freeMode={true}
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          
+          <Card className="text-white border border-0">
+            <Card.Img src={newrizon_1} />
+          </Card>
+          
+        </SwiperSlide>
+
+        <SwiperSlide>
+        
+          <Card className="text-success">
+            <Card.Img src={mercurioweather_1} />
+          </Card>
+          
+        </SwiperSlide>
+
+        <SwiperSlide>
+        
+          <Card className="text-dark">
+            <Card.Img src={greenlife_2} />
+          </Card>
+          
+        </SwiperSlide>
+
+        <SwiperSlide>
+        
+          <Card className="text-info">
+            <Card.Img src={brainchallenge_1} />
+          </Card>
+          
+        </SwiperSlide>
+
+        <SwiperSlide>
+        
+          <Card className="text-danger">
+            <Card.Img src={mememory_2} />
+          </Card>
+          
         </SwiperSlide>
       </Swiper>
     </Container>
