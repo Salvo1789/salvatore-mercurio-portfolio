@@ -8,6 +8,7 @@ import React, { useRef, useState } from 'react';
 import newrizon_1 from "../assets/projects_img/newrizon_1.jpg";
 import mercurioweather_1 from "../assets/projects_img/mercurioweather_1.jpg";
 import greenlife_2 from "../assets/projects_img/greenlife_2.jpg";
+import udontopia from "../assets/projects_img/udontopia.png";
 import brainchallenge_1 from "../assets/projects_img/brainchallenge_1.jpg";
 import mememory_2 from "../assets/projects_img/mememory_2.png";
 
@@ -101,6 +102,23 @@ const ProjectsList = () => {
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7133751964810498048/" target="_blank">
+          <Card className="text-warning">
+            <Card.Img src={udontopia} />
+            <Card.ImgOverlay>
+              <Card.Title>Udontopia - Japanese Restaurant Website</Card.Title>
+              <br></br>
+              <Card.Text>
+              {subtitle}  
+                <br></br>
+                #HTML #CSS #SASS #Bootstrap #Wordpress #PHP
+                </Card.Text>
+            </Card.ImgOverlay>
+          </Card>
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
         <a href="https://www.linkedin.com/feed/update/urn:li:activity:7104799499646119936/" target="_blank">
           <Card className="text-info">
             <Card.Img src={brainchallenge_1} />
@@ -163,6 +181,14 @@ const ProjectsList = () => {
         
           <Card className="text-dark">
             <Card.Img src={greenlife_2} />
+          </Card>
+          
+        </SwiperSlide>
+
+        <SwiperSlide>
+        
+          <Card className="text-light">
+            <Card.Img src={udontopia} />
           </Card>
           
         </SwiperSlide>
