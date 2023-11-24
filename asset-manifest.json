@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/salvatore-mercurio-portfolio/static/css/main.dca17342.css",
-    "main.js": "/salvatore-mercurio-portfolio/static/js/main.c5f9eed9.js",
+    "main.css": "/salvatore-mercurio-portfolio/static/css/main.9df57444.css",
+    "main.js": "/salvatore-mercurio-portfolio/static/js/main.8079f8c2.js",
+    "static/media/udontopia.png": "/salvatore-mercurio-portfolio/static/media/udontopia.87fc667ec3335bbfd684.png",
     "static/media/mememory_2.png": "/salvatore-mercurio-portfolio/static/media/mememory_2.3fd09c3701e9135fc74f.png",
     "static/media/mememory_1.png": "/salvatore-mercurio-portfolio/static/media/mememory_1.64b32bea56d01e5f7274.png",
     "static/media/mercurioweather_2.jpg": "/salvatore-mercurio-portfolio/static/media/mercurioweather_2.47887f261fecf948ce07.jpg",
@@ -20,14 +21,15 @@
     "static/media/CSS_logo.png": "/salvatore-mercurio-portfolio/static/media/CSS_logo.2a9d02c653f3c5b3da68.png",
     "static/media/spring_boot_logo.png": "/salvatore-mercurio-portfolio/static/media/spring_boot_logo.e2d5b8984830e39728ed.png",
     "static/media/HTML5_logo.png": "/salvatore-mercurio-portfolio/static/media/HTML5_logo.35905d3e72caf1600582.png",
+    "static/media/wordpress_logo.png": "/salvatore-mercurio-portfolio/static/media/wordpress_logo.10b268dbf7ee88ad10e9.png",
     "static/media/bootstrap_logo.png": "/salvatore-mercurio-portfolio/static/media/bootstrap_logo.b0a4c154531128460ecb.png",
     "static/media/JS_logo.png": "/salvatore-mercurio-portfolio/static/media/JS_logo.52a97759ec71de5c5f59.png",
     "index.html": "/salvatore-mercurio-portfolio/index.html",
-    "main.dca17342.css.map": "/salvatore-mercurio-portfolio/static/css/main.dca17342.css.map",
-    "main.c5f9eed9.js.map": "/salvatore-mercurio-portfolio/static/js/main.c5f9eed9.js.map"
+    "main.9df57444.css.map": "/salvatore-mercurio-portfolio/static/css/main.9df57444.css.map",
+    "main.8079f8c2.js.map": "/salvatore-mercurio-portfolio/static/js/main.8079f8c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dca17342.css",
-    "static/js/main.c5f9eed9.js"
+    "static/css/main.9df57444.css",
+    "static/js/main.8079f8c2.js"
   ]
 }
