@@ -11,6 +11,7 @@ import java_logo from "../assets/java_logo.png";
 import spring_boot_logo from "../assets/spring_boot_logo.png";
 import postgresql_logo from "../assets/postgresql_logo.png";
 import wordpress_logo from "../assets/wordpress_logo.png";
+import angular_logo from "../assets/angular_logo.png";
 
 const TechList = () => {
   const mode = useSelector((state) => state.darkMode.isdarkMode);
@@ -70,6 +71,9 @@ const TechList = () => {
             </span>
             <span style={{ "--i": 9 }}>
               <img src={wordpress_logo} />
+            </span>
+            <span style={{ "--i": 10 }}>
+              <img src={angular_logo} />
             </span>
           </div>
         </Col>
