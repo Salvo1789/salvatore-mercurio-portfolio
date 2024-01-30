@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/salvatore-mercurio-portfolio/static/css/main.9df57444.css",
-    "main.js": "/salvatore-mercurio-portfolio/static/js/main.8079f8c2.js",
+    "main.css": "/salvatore-mercurio-portfolio/static/css/main.4f0bf402.css",
+    "main.js": "/salvatore-mercurio-portfolio/static/js/main.2b5d55a1.js",
     "static/media/udontopia.png": "/salvatore-mercurio-portfolio/static/media/udontopia.87fc667ec3335bbfd684.png",
     "static/media/mememory_2.png": "/salvatore-mercurio-portfolio/static/media/mememory_2.3fd09c3701e9135fc74f.png",
     "static/media/mememory_1.png": "/salvatore-mercurio-portfolio/static/media/mememory_1.64b32bea56d01e5f7274.png",
@@ -12,11 +12,12 @@
     "static/media/brainchallenge_2.jpg": "/salvatore-mercurio-portfolio/static/media/brainchallenge_2.3720bb1e04394339a527.jpg",
     "static/media/brainchallenge_1.jpg": "/salvatore-mercurio-portfolio/static/media/brainchallenge_1.a5054c572889ef361f4e.jpg",
     "static/media/greenlife_2.jpg": "/salvatore-mercurio-portfolio/static/media/greenlife_2.df726613838215d004d0.jpg",
-    "static/media/CV_Salvatore_Mercurio.pdf": "/salvatore-mercurio-portfolio/static/media/CV_Salvatore_Mercurio.b624d678db701cea365c.pdf",
     "static/media/selfie.png": "/salvatore-mercurio-portfolio/static/media/selfie.25ab9dce1ada2278c875.png",
+    "static/media/CV_Salvatore_Mercurio.pdf": "/salvatore-mercurio-portfolio/static/media/CV_Salvatore_Mercurio.1fc0e04d400b1660f468.pdf",
     "static/media/greenlife_1.jpg": "/salvatore-mercurio-portfolio/static/media/greenlife_1.712b98e36b4865228534.jpg",
     "static/media/react_logo.png": "/salvatore-mercurio-portfolio/static/media/react_logo.c321bc2f79067207da3d.png",
     "static/media/postgresql_logo.png": "/salvatore-mercurio-portfolio/static/media/postgresql_logo.00e174824b89f4f975f0.png",
+    "static/media/angular_logo.png": "/salvatore-mercurio-portfolio/static/media/angular_logo.61fd6d18fdb1dfda7e78.png",
     "static/media/java_logo.png": "/salvatore-mercurio-portfolio/static/media/java_logo.25f3056a833096a87baf.png",
     "static/media/CSS_logo.png": "/salvatore-mercurio-portfolio/static/media/CSS_logo.2a9d02c653f3c5b3da68.png",
     "static/media/spring_boot_logo.png": "/salvatore-mercurio-portfolio/static/media/spring_boot_logo.e2d5b8984830e39728ed.png",
@@ -25,11 +26,11 @@
     "static/media/bootstrap_logo.png": "/salvatore-mercurio-portfolio/static/media/bootstrap_logo.b0a4c154531128460ecb.png",
     "static/media/JS_logo.png": "/salvatore-mercurio-portfolio/static/media/JS_logo.52a97759ec71de5c5f59.png",
     "index.html": "/salvatore-mercurio-portfolio/index.html",
-    "main.9df57444.css.map": "/salvatore-mercurio-portfolio/static/css/main.9df57444.css.map",
-    "main.8079f8c2.js.map": "/salvatore-mercurio-portfolio/static/js/main.8079f8c2.js.map"
+    "main.4f0bf402.css.map": "/salvatore-mercurio-portfolio/static/css/main.4f0bf402.css.map",
+    "main.2b5d55a1.js.map": "/salvatore-mercurio-portfolio/static/js/main.2b5d55a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9df57444.css",
-    "static/js/main.8079f8c2.js"
+    "static/css/main.4f0bf402.css",
+    "static/js/main.2b5d55a1.js"
   ]
 }
